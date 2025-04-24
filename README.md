@@ -7,7 +7,6 @@
 ---
 
 ### Aula 24/02 - Well-Architected Framework (AWS)
-Introdução ao AWS Well-Architected Framework, que define seis pilares essenciais para desenvolvimento de sistemas na nuvem:
 - **Excelência Operacional:** executar, monitorar e melhorar continuamente.
 - **Segurança:** proteção contra ameaças internas e externas.
 - **Confiabilidade:** resiliência e capacidade de recuperação.
@@ -120,5 +119,3 @@ Introdução ao AWS Well-Architected Framework, que define seis pilares essencia
 RDS: serviço de banco relacional gerenciado (MySQL, PostgreSQL, Oracle, etc.).
 
 Não-Relacionais: bancos como DynamoDB, MongoDB, voltados para dados flexíveis e escaláveis.
-
-Discutimos como escolher o banco mais adequado baseado em necessidade de consistência, escalabilidade, modelo de dados e performance.
