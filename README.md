@@ -119,3 +119,61 @@
 RDS: serviço de banco relacional gerenciado (MySQL, PostgreSQL, Oracle, etc.).
 
 Não-Relacionais: bancos como DynamoDB, MongoDB, voltados para dados flexíveis e escaláveis.
+
+# 📚 Resumo das Aulas - AWS (Maio)
+
+Este repositório contém um resumo prático e organizado das aulas de AWS realizadas durante o mês de maio, com foco em redes, conectividade e gerenciamento de identidade na nuvem.
+
+---
+
+## ✅ Aula 05/05 – Fundamentos de Redes na AWS
+
+- **VPC (Virtual Private Cloud):**  
+  Rede isolada dentro da AWS com controle total de subnets, rotas e gateways.
+
+- **CIDR (Classless Inter-Domain Routing):**  
+  Define o bloco de endereços IP para a VPC, determinando o tamanho da rede.
+
+- **Subnet Pública:**  
+  Sub-rede com acesso à internet via Internet Gateway, usada para recursos como servidores públicos.
+
+---
+
+### 🧪 Aulas 12/05 e 15/05 – Laboratórios Práticos
+
+## Guided Lab – Creating a Virtual Private Cloud
+- Criação passo a passo de uma VPC com subnets, gateways e rotas.
+
+## Challenge Lab (Café) – VPC Networking Environment for the Café
+- Desafio prático simulando uma cafeteria.
+- Criação de subnets públicas/privadas, configuração de roteamento e segurança.
+Notas: Exercicio 1: 45 ; Exercicio 2: 45.
+---
+
+### 🌐 Aula 19/05 – Conectividade entre Redes
+
+- **VPC Peering:**  
+  Comunicação privada entre duas VPCs sem passar pela internet.
+
+- **AWS VPN Site-to-Site:**  
+  Conexão segura entre a AWS e um datacenter/local on-premises usando IPsec.
+
+- **AWS Direct Connect:**  
+  Conexão física dedicada para comunicação direta e de alta performance com a AWS.
+
+---
+
+### 🔐 Aula 26/05 – Gerenciamento de Identidade e Acesso
+
+- **IAM Groups:**  
+  Grupos de usuários com permissões compartilhadas para facilitar o gerenciamento.
+
+- **Roles e AWS STS (Security Token Service):**  
+  Papéis com permissões temporárias. STS emite credenciais temporárias para acesso controlado a serviços da AWS.
+
+- **AWS Cognito:**  
+  Gerenciamento de autenticação e usuários para aplicações web/mobile.  
+  Suporte a login por e-mail/senha, redes sociais e provedores externos.
+
+
+
