@@ -120,9 +120,7 @@ RDS: serviço de banco relacional gerenciado (MySQL, PostgreSQL, Oracle, etc.).
 
 Não-Relacionais: bancos como DynamoDB, MongoDB, voltados para dados flexíveis e escaláveis.
 
-# 📚 Resumo das Aulas - AWS (Maio)
-
-Este repositório contém um resumo prático e organizado das aulas de AWS realizadas durante o mês de maio, com foco em redes, conectividade e gerenciamento de identidade na nuvem.
+# Resumo das Aulas - AWS
 
 ---
 
@@ -139,15 +137,15 @@ Este repositório contém um resumo prático e organizado das aulas de AWS reali
 
 ---
 
-### 🧪 Aulas 12/05 e 15/05 – Laboratórios Práticos
+### Aulas 12/05 e 15/05 – Laboratórios Práticos
 
 ## Guided Lab – Creating a Virtual Private Cloud
 - Criação passo a passo de uma VPC com subnets, gateways e rotas.
 
 ## Challenge Lab (Café) – VPC Networking Environment for the Café
-- Desafio prático simulando uma cafeteria.
 - Criação de subnets públicas/privadas, configuração de roteamento e segurança.
-Notas: Exercicio 1: 45 ; Exercicio 2: 45.
+Notas: Exercicio 1: 45
+       Exercicio 2: 45.
 ---
 
 ### 🌐 Aula 19/05 – Conectividade entre Redes
@@ -163,7 +161,7 @@ Notas: Exercicio 1: 45 ; Exercicio 2: 45.
 
 ---
 
-### 🔐 Aula 26/05 – Gerenciamento de Identidade e Acesso
+###  Aula 26/05 – Gerenciamento de Identidade e Acesso
 
 - **IAM Groups:**  
   Grupos de usuários com permissões compartilhadas para facilitar o gerenciamento.
