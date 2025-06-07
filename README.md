@@ -120,11 +120,9 @@ RDS: serviço de banco relacional gerenciado (MySQL, PostgreSQL, Oracle, etc.).
 
 Não-Relacionais: bancos como DynamoDB, MongoDB, voltados para dados flexíveis e escaláveis.
 
-# Resumo das Aulas - AWS
-
 ---
 
-## ✅ Aula 05/05 – Fundamentos de Redes na AWS
+##  Aula 05/05 – Fundamentos de Redes na AWS
 
 - **VPC (Virtual Private Cloud):**  
   Rede isolada dentro da AWS com controle total de subnets, rotas e gateways.
@@ -148,7 +146,7 @@ Notas: Exercicio 1: 45
        Exercicio 2: 45.
 ---
 
-### 🌐 Aula 19/05 – Conectividade entre Redes
+### Aula 19/05 – Conectividade entre Redes
 
 - **VPC Peering:**  
   Comunicação privada entre duas VPCs sem passar pela internet.
