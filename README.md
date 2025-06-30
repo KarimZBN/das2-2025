@@ -122,54 +122,109 @@ Não-Relacionais: bancos como DynamoDB, MongoDB, voltados para dados flexíveis 
 
 ---
 
-##  Aula 05/05 – Fundamentos de Redes na AWS
-
-- **VPC (Virtual Private Cloud):**  
-  Rede isolada dentro da AWS com controle total de subnets, rotas e gateways.
-
-- **CIDR (Classless Inter-Domain Routing):**  
-  Define o bloco de endereços IP para a VPC, determinando o tamanho da rede.
-
-- **Subnet Pública:**  
-  Sub-rede com acesso à internet via Internet Gateway, usada para recursos como servidores públicos.
+# Segundo Bimestre
 
 ---
 
-### Aulas 12/05 e 15/05 – Laboratórios Práticos
+## Aula 05/05 – Redes Básicas na Nuvem
 
-## Guided Lab – Creating a Virtual Private Cloud
-- Criação passo a passo de uma VPC com subnets, gateways e rotas.
+### VPC (Virtual Private Cloud)
+Cria uma rede isolada dentro da AWS, onde você pode lançar recursos de forma segura. Permite total controle sobre IPs, sub-redes, rotas e segurança.
 
-## Challenge Lab (Café) – VPC Networking Environment for the Café
-- Criação de subnets públicas/privadas, configuração de roteamento e segurança.
-Notas: Exercicio 1: 45
-       Exercicio 2: 45.
----
+### CIDR (Classless Inter-Domain Routing)
+Define o bloco de endereços IP da VPC (ex: 10.0.0.0/16). Um número menor após a barra representa mais IPs disponíveis.
 
-### Aula 19/05 – Conectividade entre Redes
-
-- **VPC Peering:**  
-  Comunicação privada entre duas VPCs sem passar pela internet.
-
-- **AWS VPN Site-to-Site:**  
-  Conexão segura entre a AWS e um datacenter/local on-premises usando IPsec.
-
-- **AWS Direct Connect:**  
-  Conexão física dedicada para comunicação direta e de alta performance com a AWS.
+### Subnet Pública
+Sub-rede com acesso direto à internet através de um Internet Gateway. Utilizada para recursos que precisam estar acessíveis externamente, como servidores web.
 
 ---
 
-###  Aula 26/05 – Gerenciamento de Identidade e Acesso
+## Aula 12/05 – Laboratórios Práticos
 
-- **IAM Groups:**  
-  Grupos de usuários com permissões compartilhadas para facilitar o gerenciamento.
+### Laboratórios Canvas
+- Guided Lab: Creating a Virtual Private Cloud ✔️
+- Challenge Lab (Café): Creating a VPC Networking Environment for the Café ✔️
 
-- **Roles e AWS STS (Security Token Service):**  
-  Papéis com permissões temporárias. STS emite credenciais temporárias para acesso controlado a serviços da AWS.
+---
 
-- **AWS Cognito:**  
-  Gerenciamento de autenticação e usuários para aplicações web/mobile.  
-  Suporte a login por e-mail/senha, redes sociais e provedores externos.
+## Aula 15/05 – Reforço de VPC
 
+### Laboratórios Canvas (Revisão e prática)
+- Guided Lab: Creating a Virtual Private Cloud ✔️
+- Challenge Lab (Café): Creating a VPC Networking Environment for the Café ✔️
 
+---
+
+## Aula 19/05 – Conectividade entre Redes
+
+### VPC Peering
+Permite a comunicação entre duas VPCs, mesmo em contas ou regiões diferentes. Ideal para integrar diferentes ambientes de forma segura e privada.
+
+### AWS VPN Site-to-Site
+Conexão criptografada entre a AWS e um data center local (on-premises) via internet pública.
+
+### AWS Direct Connect
+Conexão física dedicada entre a AWS e o seu ambiente local. Garante menor latência e maior estabilidade em comparação com VPN.
+
+---
+
+## Aula 26/05 – Identidade e Acesso
+
+### IAM Groups
+Conjunto de usuários IAM com políticas de permissão aplicadas em grupo, facilitando o gerenciamento de acesso.
+
+### IAM Roles + AWS STS
+- Roles: Concedem permissões temporárias a usuários, serviços ou contas.
+- STS (Security Token Service): Gera credenciais temporárias seguras com validade limitada.
+
+### AWS Cognito
+Serviço de gerenciamento de identidade para autenticação de usuários em aplicações web e mobile. Suporta login com redes sociais e provedores externos.
+
+---
+
+## Aula 29/05 – Criptografia
+
+### Criptografia Simétrica
+Usa a mesma chave para criptografar e descriptografar. Rápida, ideal para dados armazenados. Exemplo: AES.
+
+### Criptografia Assimétrica
+Utiliza um par de chaves (pública e privada). Mais segura para troca de dados entre partes. Exemplo: RSA.
+
+---
+
+## Aula 09/06 – Alta Disponibilidade
+
+### Laboratórios Canvas
+- Guided Lab: Creating a Highly Available Environment ✔️
+- Challenge Lab (Café): Creating a Scalable and Highly Available Environment for the Café ✔️
+
+---
+
+## Aula 12/06 – Continuação da Alta Disponibilidade
+
+### Laboratórios Canvas
+- Guided Lab: Creating a Highly Available Environment ✔️
+- Challenge Lab (Café): Creating a Scalable and Highly Available Environment for the Café ✔️
+
+---
+
+## Aula 16/06 – Balanceamento e Resolução de Nomes
+
+### Load Balancer
+Distribui automaticamente o tráfego entre várias instâncias para garantir desempenho e tolerância a falhas. Tipos: ALB, NLB, GLB.
+
+### DNS (Domain Name System)
+Resolve nomes de domínio em endereços IP. O serviço Amazon Route 53 fornece DNS escalável, seguro e com integração à AWS.
+
+---
+
+## Aula 23/06 – Infraestrutura como Código (IaC)
+
+### IaC (Infrastructure as Code)
+Permite definir e provisionar a infraestrutura via código, garantindo consistência, automação e versionamento.  
+Ferramentas populares:
+- AWS CloudFormation (nativo da AWS)
+- Terraform (multi-cloud)
+
+---
 
