@@ -142,16 +142,16 @@ Sub-rede com acesso direto à internet através de um Internet Gateway. Utilizad
 ## Aula 12/05 – Laboratórios Práticos
 
 ### Laboratórios Canvas
-- Guided Lab: Creating a Virtual Private Cloud ✔️
-- Challenge Lab (Café): Creating a VPC Networking Environment for the Café ✔️
+- Guided Lab: Creating a Virtual Private Cloud ✔️ Nota: 50.4/56
+- Challenge Lab (Café): Creating a VPC Networking Environment for the Café ✔️ Nota: 45/56
 
 ---
 
 ## Aula 15/05 – Reforço de VPC
 
 ### Laboratórios Canvas (Revisão e prática)
-- Guided Lab: Creating a Virtual Private Cloud ✔️
-- Challenge Lab (Café): Creating a VPC Networking Environment for the Café ✔️
+- Guided Lab: Creating a Virtual Private Cloud ✔️ Nota: 50.4/56
+- Challenge Lab (Café): Creating a VPC Networking Environment for the Café ✔️ Nota: 45/56
 
 ---
 
@@ -195,16 +195,16 @@ Utiliza um par de chaves (pública e privada). Mais segura para troca de dados e
 ## Aula 09/06 – Alta Disponibilidade
 
 ### Laboratórios Canvas
-- Guided Lab: Creating a Highly Available Environment ✔️
-- Challenge Lab (Café): Creating a Scalable and Highly Available Environment for the Café ✔️
+- Guided Lab: Creating a Highly Available Environment ✔️ Nota: 41.07/56
+- Challenge Lab (Café): Creating a Scalable and Highly Available Environment for the Café ✔️ Nota: 56/56
 
 ---
 
 ## Aula 12/06 – Continuação da Alta Disponibilidade
 
 ### Laboratórios Canvas
-- Guided Lab: Creating a Highly Available Environment ✔️
-- Challenge Lab (Café): Creating a Scalable and Highly Available Environment for the Café ✔️
+- Guided Lab: Creating a Highly Available Environment ✔️ Nota: 41.07/56
+- Challenge Lab (Café): Creating a Scalable and Highly Available Environment for the Café ✔️ Nota: 56/56
 
 ---
 
